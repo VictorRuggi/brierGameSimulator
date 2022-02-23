@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Gotham";
+	font-size: 12pt;
+	color: black;
+	/*height: 100%
+	width: 100%*/
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-image: url("set.jpg");
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	/*padding-top: 15px;*/
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	/*display: inline-block;*/
+}
+
+li {
+	border-color: white;
+	padding-top: 30px;
+	/*padding-left: 7.5px;*/
+	padding-right: 75px;
+	display: inline-block;
+	width: 5%;
+	height: 10%;
+}
+
+li p{
+	width: 100%;
+}
+
+#header-text {
+	text-align: center;
+}
+
+#about {
+	text-align: center;
+}
+
+#reset {
+	padding-left: 50%;
+}
+
+#credits {
+	text-align: center;
+	padding-top: 35px;
+}
+
+#simulation {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#injury-report {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#box-score {
+	padding-top: 30px;
+	text-align: center;
+}
+
+td {
+	color: white;
+	padding-right: 50px;
+	text-align: center;
+}
+
+#bio {
+	text-align: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 35px;
+}
+
+#back {
+	text-align: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 35px;
+}
+
+#victor {
+	height: 25%;
+	width: 12.5%;
+	padding-left: 35%;
+	padding-right: 12.5%;
+}
+
+input:hover{
+	background: darkblue;
+	color: white;
+}
+
+img
+{
+	height: 100%;
+	width: 150%;
+	display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+textarea {
+	height: 120px;
+	width: 150px;
+}
+
+#music {
+	text-align: right;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,144,255,1) 100%);
+}

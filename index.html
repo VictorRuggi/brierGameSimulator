@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<script type="text/javascript" src="brierGameSimulator.js"></script>
+		<link rel="stylesheet" type="text/css" href="brierGameSimulator.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tim Hortons Brier Curling Game Simulator</title>
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li><img src="TimHortonsBrier.png" style="width: 250px; height: 100px"/></li>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<li><img src="TSN.png" style="width: 250px; height: 75px; padding-top: 5px"/></li>
+			</ul>
+		</div>
+		<h1 style="font-size: 28pt; text-align: center; color: darkblue">TIM HORTONS BRIER CURLING GAME SIMULATOR <h2><a href="about-me.html">by Victor Ruggi</a></h2></h1>
+		
+		<div id="reset">
+			<input type="button" id="reset-btn" value="Reset" disabled="true" />
+		</div>
+		
+		<p id="header-text">Select Team 1 (Away)</p>
+		<p id="simulation"></p>
+		
+		<div id="row1">
+		<ul>
+			<li><img src="logos/Canada.png"><input type="button" id="canada" value="Canada" /></img></li>
+			<li><img src="logos/Alberta.png"><input type="button" id="alberta" value="Alberta" /></img></li>
+			<li><img src="logos/BritishColumbia.png"><input type="button" id="britishcolumbia" value="British Columbia" /></img></li>
+			<li><img src="logos/Manitoba.png"><input type="button" id="manitoba" value="Manitoba" /></img></li>
+			<li><img src="logos/NewBrunswick.png"><input type="button" id="newbrunswick" value="New Brunswick" /></img></li>
+			<li><img src="logos/NewfoundlandAndLabrador.png"><input type="button" id="newfoundlandandlabrador" value="Newfoundland and Labrador" /></img></li>
+		</ul>
+		</div>
+		
+		<div id="row2">
+		<ul>
+			<li><img src="logos/NorthernOntario.png"><input type="button" id="northernontario" value="Northern Ontario" /></img></li>
+			<li><img src="logos/NovaScotia.png"><input type="button" id="novascotia" value="Nova Scotia" /></img></li>
+			<li><img src="logos/Ontario.png"><input type="button" id="ontario" value="Ontario" /></img></li>
+			<li><img src="logos/PrinceEdwardIsland.png"><input type="button" id="princeedwardisland" value="Prince Edward Island" /></img></li>
+			<li><img src="logos/Quebec.png"><input type="button" id="quebec" value="Quebec" /></img></li>
+			<li><img src="logos/Saskatchewan.png"><input type="button" id="saskatchewan" value="Saskatchewan" /></img></li>
+		</ul>
+		</div>
+		
+		<div id="row3">
+		<ul>
+			<li><img src="logos/NorthwestTerritories.png"><input type="button" id="northwestterritories" value="Northwest Territories" /></img></li>
+			<li><img src="logos/Nunavut.png"><input type="button" id="nunavut" value="Nunavut" /></img></li>
+			<li><img src="logos/Yukon.png"><input type="button" id="yukon" value="Yukon" /></img></li>
+			<li><img src="logos/WildCard1.png"><input type="button" id="wildcard1" value="Wild Card 1" /></img></li>
+			<li><img src="logos/WildCard2.png"><input type="button" id="wildcard2" value="Wild Card 2" /></img></li>
+			<li><img src="logos/WildCard3.png"><input type="button" id="wildcard3" value="Wild Card 3" /></img></li>
+		</ul>
+		</div>
+		
+		<div id="box-score" style="visibility: hidden">
+		</div>
+		
+		<div id="credits">
+			<p><b>All flags used on this site are the Canadian national, provincial and territorial flags; the flags, TSN and Brier logos come from Wikipedia. The Wild Card logos were made by me on Paint.</b></p>
+		</div>
+	</body>
+</html>
