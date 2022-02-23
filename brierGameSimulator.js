@@ -408,7 +408,7 @@ function resume2(){
 
 /*GAME ON! IN CURLING, ONLY ONE TEAM CAN SCORE PER END AT A TIME.*/
 function end01(team1, team2){
-	document.getElementById("simulation").innerHTML += "<p><b><span style=\"color: darkblue\">SKIPS</span><br/>"+team1[0]+": "+team1[3]+", "+team2[0]+": "+team2[3]+"<br/><br/><span style=\"color: darkblue\">POINTS SCORED WITHIN THE FIRST 10 ENDS AND EXTRAS</span></b><br/><b><span style=\"color: darkblue\">1ST END</span></b></p>";
+	document.getElementById("simulation").innerHTML += "<p><b><span style=\"color: darkblue\">SKIPS</span><br/>"+team1[0]+": "+team1[3]+", "+team2[0]+": "+team2[3]+"<br/><br/><span style=\"color: darkblue\">SCORING SUMMARY</span></b><br/><b><span style=\"color: darkblue\">1ST END</span></b></p>";
 	picker = Math.floor(Math.random() * 3);
 	
 	/*AWAY SCORES*/
